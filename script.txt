@@ -1,0 +1,7 @@
+khởi tạo back-end MERN : npm i express jsonwebtoken mongoose dotenv cors bcrypt
+js multer
+
+nodemon : npm i nodemon -save-dev
+
+mongodb user :: hunghippp \ oKjxRXzk08ZwJ7yt
+mongodb access :: 6EKpUyXMvalHd7o9
