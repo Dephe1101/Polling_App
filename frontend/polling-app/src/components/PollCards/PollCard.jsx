@@ -54,12 +54,13 @@ const PollCard = ({
     else setSelectedOptionIndex(value);
   };
 
+  console.log(rating);
   //! Generates post data based on the poll type
   const getPostData = useCallback(() => {
     if (type === "open-ended") {
       return { responseText: userResponse, voterId: user._id };
     }
-    if (type === " rating") {
+    if (type === "rating") {
       return { optionIndex: rating - 1, voterId: user._id };
     }
     return { optionIndex: selectedOptionIndex, voterId: user._id };
